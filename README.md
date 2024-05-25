@@ -24,7 +24,7 @@ La función extraer_rutas(url) se encarga de:
 *3. Base de Datos MongoDB*
 - La interacción con MongoDB se maneja en el módulo mongo/mongo.py.
 - Se conecta a una base de datos MongoDB Atlas utilizando un URI.
-- Las funciones principales incluyen:
+- Las funciones principales incluyen:  
       - **insert(route, ip):** Inserta un documento en la colección con la ruta, la dirección IP del solicitante y la fecha actual.
       - **ping():** Verifica la conexión a la base de datos.
       - **delete():** Elimina todos los documentos de la colección (utilizado para limpieza).
@@ -34,6 +34,7 @@ La función extraer_rutas(url) se encarga de:
 - Después de enviar el formulario, los enlaces extraídos se muestran en una lista debajo del formulario.
 - Utiliza la plantilla de Flask para renderizar los resultados dinámicamente.
 *5. Docker*
+  
 - **Dockerfile:** Define la configuración para construir una imagen Docker de la aplicación Flask.
 - **docker-compose.yml:** Configura los servicios para Docker Compose, incluyendo el servicio web (Flask) y la base de datos MongoDB.
 # Flujo de Trabajo
