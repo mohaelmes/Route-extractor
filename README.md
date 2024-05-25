@@ -15,6 +15,7 @@ El proyecto se compone de varias partes integradas:
 - El servidor web está configurado en el archivo app.py.
 - Define una ruta principal (/) que maneja las solicitudes GET y POST.
 - Cuando el usuario envía una URL a través del formulario HTML, el servidor Flask procesa esta solicitud y llama a la función de extracción de rutas.
+  
 *2. Extracción de Rutas*
 La función extraer_rutas(url) se encarga de:
 - Realizar una solicitud HTTP a la URL proporcionada utilizando requests.get(url).
