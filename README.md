@@ -24,12 +24,13 @@ La función extraer_rutas(url) se encarga de:
 *3. Base de Datos MongoDB*
 - La interacción con MongoDB se maneja en el módulo mongo/mongo.py.
 - Se conecta a una base de datos MongoDB Atlas utilizando un URI.
-- Las funciones principales incluyen:  
-      - **insert(route, ip):** Inserta un documento en la colección con la ruta, la dirección IP del solicitante y la fecha actual.
+- Las funciones principales incluyen:
+
+      - insert(route, ip): Inserta un documento en la colección con la ruta, la dirección IP del solicitante y la fecha actual.
   
-      - **ping():** Verifica la conexión a la base de datos.
+      - ping(): Verifica la conexión a la base de datos.
   
-      - **delete():** Elimina todos los documentos de la colección (utilizado para limpieza).
+      - delete(): Elimina todos los documentos de la colección (utilizado para limpieza).
   
 *4. Frontend HTML*
 - El archivo templates/index.html define la interfaz de usuario.
