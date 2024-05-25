@@ -1,0 +1,9 @@
+/admin
+/login
+/images
+/videos
+/downloads
+/documents
+/news
+/about
+/contact
