@@ -22,6 +22,7 @@ La función extraer_rutas(url) se encarga de:
 - Verificar que la solicitud sea exitosa (código de estado 200).
 - Analizar el contenido HTML con BeautifulSoup y encontrar todas las etiquetas <a>.
 - Extraer los enlaces (href) de cada etiqueta <a> y filtrar los enlaces que comienzan con http o https.
+  
 *3. Base de Datos MongoDB*
 - La interacción con MongoDB se maneja en el módulo mongo/mongo.py.
 - Se conecta a una base de datos MongoDB Atlas utilizando un URI.
